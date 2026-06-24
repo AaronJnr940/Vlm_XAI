@@ -2,7 +2,7 @@
 **Leveraging Vision-Language Models for Obstacle and Hazard Identification in Urban Traffic Scenes** <br>
 
 A Qwen3-VL-4B model is finetuned on the BDD100K dataset across four perception and reasoning tasks; scene captioning, anomaly recognition, object detection and open-vocabulary perception. Using parameter-efficient fine-tuning via LoRA, the model achieves a good performance across all tasks verified by the quantitative evaluation is employed. Similarly, to validate that predictions reflect true scene understanding rather than spurious correlations, qualitative evaluation is also employed. Three Explainable AI (XAI) techniques; Occlusion Sensitivity Analysis, Visual Attention Map Extraction and Multimodal Grad-CAM are used for this validation. Analysis revealed critical differences in these techniques as Attention Map Extraction and Occlusion Sensitivity provided a higher-fidelity causal grounding compared to Multimodal Grad-CAM. <br>
-[![Hugging Face Model](https://img.shields.io/badge/🤗%20Hugging%20Face-Model%20Card-yellow)](https://aaronjnr940/qwen3vl-bdd100k-lora)
+[![Hugging Face Model](https://img.shields.io/badge/🤗%20Hugging%20Face-Model%20Card-yellow)](https://huggingface.co/aaronjnr940/qwen3vl-bdd100k-lora)
 <figure align="center">
   <img src="./imgs/train_val_loss.png"alt="train_val_loss" width="50%">
   <figcaption>
