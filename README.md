@@ -3,6 +3,32 @@
 
 A Qwen3-VL-4B model is finetuned on the BDD100K dataset across four perception and reasoning tasks; scene captioning, anomaly recognition, object detection and open-vocabulary perception. Using parameter-efficient fine-tuning via LoRA, the model achieves a good performance across all tasks verified by the quantitative evaluation is employed. Similarly, to validate that predictions reflect true scene understanding rather than spurious correlations, qualitative evaluation is also employed. Three Explainable AI (XAI) techniques; Occlusion Sensitivity Analysis, Visual Attention Map Extraction and Multimodal Grad-CAM are used for this validation. Analysis revealed critical differences in these techniques as Attention Map Extraction and Occlusion Sensitivity provided a higher-fidelity causal grounding compared to Multimodal Grad-CAM. <br>
 
+<figure align="center">
+  <img src="./imgs/train_val_loss.png"alt="train_val_loss" width="50%">
+  <figcaption>
+    <em>Fig1. Training vs Validation loss </em>
+  </figcaption>
+</figure>
+
+<figure align="center">
+  <img src="./imgs/img4.png"alt="attention_map" width="50%">
+  <figcaption>
+    <em>Fig2. Attention Map Extraction on random scene </em>
+  </figcaption>
+</figure>
+
+<figure align="center">
+  <img src="./imgs/img2.png"alt="occlusion_sens" width="50%">
+  <figcaption>
+    <em>Fig.3. Occlusion Sensitivity on random scene</em>
+  </figcaption>
+</figure>
+<figure align="center">
+  <img src="./imgs/img6.png"alt="grad_cam" width="50%">
+  <figcaption>
+    <em>Fig.4. Multimodal Grad-CAM on random scene</em>
+  </figcaption>
+</figure>
 
 <details> <summary><b>Qwen3VL reference</b></summary>
 @article{Qwen3-VL,
