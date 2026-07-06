@@ -30,7 +30,7 @@ A Qwen3-VL-4B model is finetuned on the BDD100K dataset across four perception a
   </figcaption>
 </figure>
 
-
+<p>The first batch of experiments (train_old.ipynb) used the first generated dataframe(dataframe_v1) and the second batch used train.ipynb and dataframe_v2 respectively. <p>
 <details> <summary><b>Qwen3VL reference</b></summary>
 @article{Qwen3-VL,
       title={Qwen3-VL Technical Report}, 
