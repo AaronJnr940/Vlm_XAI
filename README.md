@@ -11,22 +11,22 @@ A Qwen3-VL-4B model is finetuned on the BDD100K dataset across four perception a
 </figure>
 
 <figure align="center">
-  <img src="./imgs/img4.png"alt="attention_map" width="50%">
+  <img src="./imgs/VAM1.png"alt="attention_map" width="50%">
   <figcaption>
-    <em>Fig2. Attention Map Extraction on random scene </em>
+    <em>Fig2. Attention Map Extraction on sample traffic scene</em>
   </figcaption>
 </figure>
 
 <figure align="center">
-  <img src="./imgs/img2.png"alt="occlusion_sens" width="50%">
+  <img src="./imgs/OCC1.png"alt="occlusion_sens" width="50%">
   <figcaption>
-    <em>Fig.3. Occlusion Sensitivity on random scene</em>
+    <em>Fig.3. Occlusion Sensitivity on sample traffic scene</em>
   </figcaption>
 </figure>
 <figure align="center">
-  <img src="./imgs/img6.png"alt="grad_cam" width="50%">
+  <img src="./imgs/GRAD1.png"alt="grad_cam" width="50%">
   <figcaption>
-    <em>Fig.4. Multimodal Grad-CAM on random scene</em>
+    <em>Fig.4. Multimodal Grad-CAM on sample traffic scene</em>
   </figcaption>
 </figure>
 
